@@ -9,19 +9,15 @@
 # 3. set the value of inverse of the matrix
 # 4. get the value of inverse of the matrix
 
-set the value of the vector
-get the value of the vector
-set the value of the mean
-get the value of the mean
 
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
-	set <-funtion(y){
+	set <-function(y){
 		x <<- y
 		inv <<- NULL
 	}
-	get <-function(x)
-	setinverse <- funtion(inverse) inv <<- inverse
+	get <-function() x
+	setinverse <- function(inverse) inv <<- inverse
 	getinverse <- function () inv
 	list (set = set,get=get,setinverse =setinverse ,getinverse = getinverse )
 

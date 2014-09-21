@@ -9,11 +9,6 @@
 # 3. set the value of inverse of the matrix
 # 4. get the value of inverse of the matrix
 
-set the value of the vector
-get the value of the vector
-set the value of the mean
-get the value of the mean
-
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
 	set <-funtion(y){
